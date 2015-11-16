@@ -1,0 +1,7 @@
++++
+date = "2007-09-27"
+title = "Lo bueno del smart price..."
++++
+Mucho se ha hablado sobre el [Smart Price](http://www.adseok.com/adsense/smart-price-de-adsense/)[adseok.com], que si esto que si lo otro, lo unico de lo que estamos seguros es que el smart price baja las ganancias de los usuarios de adsense y aumenta la rentabilidad para los usuarios de adwords que son los que pagan, desde aqui quiero mostrar el lado bueno del smart price a todos aquellos que se quejan (con razon) de que el smart price esta acabando con su negocio. Que tal si google en vez de crear el smart price empezara a dar de baja cuentas adsense a diestra y siniestra? no seria peor? yo pienso que si, por que despues de todo el smart price si deja dinero, poco pero deja, a diferiencia a que te cerraran la cuenta que te dejaria en ceros lo cual es en si un verdadero desastre, en el contrato de Google Adsense ellos especifican claramente que te pueden cerrar la cuenta sin discutir las razones. Creo que google tuvo sus razones para crear el smart price y no creo que fuera para afectar negativamente a los usuarios de adsense, que si le aplican el smart price a toda la cuenta entera bueno los sistemas no son perfectos. Bueno que quede constancia que no estoy muy a favor del smart price( bueno hasta que me gane una cuenta premium) pero hubiera sido peor que cancelaran la cuenta, ademas creo que mi cuenta tiene aplicado el smart price, asi que si alguien de google me lee plssssss remuevan el smart price de la cuenta...
+
+

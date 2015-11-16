@@ -1,0 +1,5 @@
++++
+date = "2008-12-28"
+title = "Actualizar a Wordpress a la version 2.7"
++++
+ **Como actualizar Wordpress** > 1.-Bajar la ultima versin [http://wordpress.org/latest.tar.gz](http://wordpress.org/latest.tar.gz)2.-Descomprimir los archivos 3.-Conectarte por ftp a tu pagina web, borrar wp-admin y wp-includes. 4.-Subir todos los archivos descomprimidos al ftp y reemplazar, excepto la carpeta wp-content. 5.-Reemplazar lo que este dentro de la carpeta wp-content, si se reemplaza la carpeta se borraran imgenes y themes que se hayan subido anteriormente. 6.-Abre en el navegador http://pagina.com/wp-admin/upgrade.php.Lo bueno: De ahora en adelante se actualizar sin necesidad de usar ftp y todo ese asunto, bastante molesto ya que nuestros amigos de wordpress sacabas versiones cada dos semanas... Lo malo: No me gusta el theme de la zona de administracin y parece mas lento que de costumbre. Screenshot del nuevo panel de wordpress 2.7 despus de actualizarlo: [![Wordpress 2.7](http://diegomichel.org/wp-content/uploads/2008/12/screenshot6-300x176.png "Wordpress 2.7")](http://diegomichel.org/wp-content/uploads/2008/12/screenshot6.png)

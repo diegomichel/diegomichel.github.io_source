@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de Ratpoison a fluxbox. &middot; Diego Michel Rubio Ramirez Software Engineer</title>
+
+    <meta name="description" content="">
+
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="twitter:card" content="summary">
+    
+    <meta name="twitter:title" content="Cambio de Ratpoison a fluxbox. &middot; Diego Michel Rubio Ramirez Software Engineer">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Cambio de Ratpoison a fluxbox. &middot; Diego Michel Rubio Ramirez Software Engineer">
+    <meta property="og:description" content="">
+
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://localhost:1313//css/all.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/rss+xml" title="Diego Michel Rubio Ramirez Software Engineer" href="http://localhost:1313//index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <hgroup>
+            <h1 class="brand-title"><a href="http://localhost:1313/">Diego Michel Rubio Ramirez Software Engineer</a></h1>
+            <h2 class="brand-tagline"></h2>
+        </hgroup>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://localhost:1313//index.xml"><i class="fa fa-rss"></i> rss</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            
+            <div class="posts">
+                <h1 class="content-subhead">07 Feb 2010, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/old_blog_posts/121-cambio-de-ratpoison-a-fluxbox/" class="post-title">Cambio de Ratpoison a fluxbox.</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-share">
+                        <div class="post-share-links">
+                            <h4 style="">Share</h4>
+                            <a href="#" data-type="facebook" data-url="http://localhost:1313/old_blog_posts/121-cambio-de-ratpoison-a-fluxbox/" data-title="Cambio de Ratpoison a fluxbox." data-description="" data-media="" class="prettySocial fa fa-facebook"></a>
+                            <a href="#" data-type="googleplus" data-url="http://localhost:1313/old_blog_posts/121-cambio-de-ratpoison-a-fluxbox/" data-description="" class="prettySocial fa fa-google-plus"></a>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="post-description">
+                        <p>No me tomen a mal, ratpoison es un gran manejador de ventanas, pero tiene sus debilidades con ciertas aplicaciones escritas en java( netbeans que use en <a href="http://shareTXT.com">shareTXT</a> ) y otras como gimp que usan multiples ventanas. Ratpoison que se describe as mismo como un sistema que no necesita de grandes libreras, sin grficos bonitos, sin bordes, y por ultimo sin la dependencia del roedor(refirindose al ratn) Fluxbox se describe como ligero, lleno de opciones que lo hacen fcil y extremadamente rpido de manejar. As es como yo convert fluxbox en un tipo de ratpoison sin grficos bonitos, sin bordes y sin dependencia del roedor. <strong>1. Instalar todas las aplicaciones necesarias.</strong> En Gentoo</p>
+
+<blockquote>
+<p>emerge fluxbox dmenu wmctrl libnotify xsetroot osd_catEn Debian o Ubuntu&gt; sudo aptitude install fluxbox dmenu wmctrl libnotify xsetroot osd_cat <strong>2.-Crear los archivos de configuracin.</strong><strong>.xinitrc **&gt; xsetroot -solid white xterm -fa &ldquo;Lucida Console&rdquo; -fs 10 -maximized &amp; exec fluxbox</strong> ~/.fluxbox/keys<strong>&gt; mod4 Right :MacroCmd {Exec echo &ldquo;Right&rdquo; | osd_cat -d1 -p middle -A center -O 2 -f *-fixed-*-*-*-20-* } {NextWindow static} mod4 Left :MacroCmd {Exec echo &ldquo;Left&rdquo; | osd_cat -d1 -p middle -A center -O 2 -f *-fixed-*-*-*-20-* } {PrevWindow static} none KP_Right :MacroCmd {Exec echo &ldquo;Right&rdquo; | osd_cat -d1 -p middle -A center -O 1 -f *-fixed-*-*-*-20-* } {NextWindow {static}} none KP_Up :MacroCmd {Exec notify-send -t 2000 &ldquo;<code>wmctrl -lx|egrep -v 'N/A'|awk '{ print $3 }'|sed -e 's/./ /g'|awk '{ print $1 }'</code>&rdquo;} none KP_Left :MacroCmd {Exec echo &ldquo;Left&rdquo; | osd_cat -d1 -p middle -A center -O 1 -f *-fixed-*-*-*-20-* } {PrevWindow {static}} mod4 r :MacroCmd {Exec echo &ldquo;Restarted&rdquo; | osd_cat -d1 -p middle -A center -O 1 -f *-fixed-*-*-*-20-* } {Restart} mod4 k :MacroCmd {Exec echo &ldquo;Closed Window&rdquo; | osd_cat -d1 -p middle -A center -O 1 -f *-fixed-*-*-*-20-* } {Close} mod4 1 :MacroCmd {Exec notify-send -t 1000 1 } {GoToWindow 1 {static}} mod4 2 :MacroCmd {Exec notify-send -t 1000 2 } {GoToWindow 2 {static}} mod4 3 :MacroCmd {Exec notify-send -t 1000 3 } {GoToWindow 3 {static}} mod4 4 :MacroCmd {Exec notify-send -t 1000 4 } {GoToWindow 4 {static}} mod4 5 :MacroCmd {Exec notify-send -t 1000 5 } {GoToWindow 5 {static}} mod4 6 :MacroCmd {Exec notify-send -t 1000 6} {GoToWindow 6 {static}} none XF86Launch4 :ExecCommand exec $(dmenu_path | dmenu -nb &lsquo;#ffff90&rsquo; -sb &lsquo;#a6b38d&rsquo; -sf &lsquo;#070806&rsquo;)</strong>~/.fluxbox/apps<strong>&gt; <a href="name=.*[^bgimpb]">app</a> [Dimensions] {1680 1050} <a href="UPPERLEFT">Position</a> {0 0} [Deco] {NONE} [end] <a href="name=xterm">app</a> [Dimensions] {1680 1050} <a href="UPPERLEFT">Position</a> {0 0} [Deco] {BORDER} [Maximized] {yes} [Fullscreen] {no} [Close] {yes} [end]<em>Notas: Lucida Console no es una fuente default del sistema, la tienes que instalar por separado. XF86Launch4 es una tecla especial de mi teclado. 1680 1050 es la resolucin de mi pantalla, debers cambiarlo para que se adapte la resolucin de tu sistema.</em></strong>Conclusin:** Fluxbox no puede emular completamente ratpoison, pero con ayuda de otras aplicaciones pequeas puede dar resultados aceptables, ademas de que nos da la ventaja de correr aplicaciones java y multi-window como gimp, sin mayores problemas.<center>
+Screenshot</p>
+</blockquote>
+
+<p><a href="http://Pictat.com/show.php?i=/2010/2/7/112402010020712.png" target="_blank"><img src="http://Pictat.com/t/2010/2/7/112402010020712.png" border="0" alt="Free Image Hosting at www.Pictat.com"></a> </center></p>
+
+                    </div>
+                    
+                </section>
+            </div>
+            <div class="footer">
+    <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <ul>
+            <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+        </ul>
+    </div>
+</div>
+<script src="http://localhost:1313//js/all.min.js"></script>
+        </div>
+    </div>
+</div>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

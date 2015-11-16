@@ -1,0 +1,7 @@
++++
+date = "2010-04-16"
+title = "Optimizacion de la velocidad de carga de un website."
++++
+Me paso que una de las paginas que tengo la han bajado de posicion, y buscando la razon cre que di con ella. Resulta que esta pagina tiene muchos comentarios, ya que a los usuarios le gusta participar en ella, y Google a empezado a tomar en cuenta el tiempo de carga de las paginas para organizar sus resultados, y creo que eso a afectado dicha pagina. Aqu una muestra de la lentitud de la pagina: [![pagina lenta](http://diegomichel.org/wp-content/uploads/2010/04/snapshot1-150x150.png "snapshot1")](http://diegomichel.org/wp-content/uploads/2010/04/snapshot1.png)Como se puede observar es extremadamente lenta, asi que decidi buscar el problema para darle solucion, lo primero que reconoci fue la cantidad de comentarios... en una de los posts tiene mas de 1800 comentarios... mas de un megabyte de puros comentarios. Asi que empec a buscar soluciones, y para mi sorpresa Wordpress incluye una solucion para este problema, para activar en el panel da click en "Discussion" y activa la casilla que dice "Break comments into pages..." esto lo que hace es dividir el total de comentarios en diferentes paginas asi se reduce el tiempo de carga de la pagina del post principal. La pagina en cuestion es [http://versosdeamor.info](http://versosdeamor.info) le tuve que modificar el theme ya que ese fue creado cuando aun no existia esa opcin. Ya los posts cargan mas rapido los he limitado a 200 comentarios por pagina, lo siguiente sera seguir buscando donde optimizar mas.
+
+

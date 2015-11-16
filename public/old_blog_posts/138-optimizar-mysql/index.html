@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimizar MYSQL. &middot; Diego Michel Rubio Ramirez Software Engineer</title>
+
+    <meta name="description" content="">
+
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="twitter:card" content="summary">
+    
+    <meta name="twitter:title" content="Optimizar MYSQL. &middot; Diego Michel Rubio Ramirez Software Engineer">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Optimizar MYSQL. &middot; Diego Michel Rubio Ramirez Software Engineer">
+    <meta property="og:description" content="">
+
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://localhost:1313//css/all.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/rss+xml" title="Diego Michel Rubio Ramirez Software Engineer" href="http://localhost:1313//index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <hgroup>
+            <h1 class="brand-title"><a href="http://localhost:1313/">Diego Michel Rubio Ramirez Software Engineer</a></h1>
+            <h2 class="brand-tagline"></h2>
+        </hgroup>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://localhost:1313//index.xml"><i class="fa fa-rss"></i> rss</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            
+            <div class="posts">
+                <h1 class="content-subhead">04 Apr 2010, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/old_blog_posts/138-optimizar-mysql/" class="post-title">Optimizar MYSQL.</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-share">
+                        <div class="post-share-links">
+                            <h4 style="">Share</h4>
+                            <a href="#" data-type="facebook" data-url="http://localhost:1313/old_blog_posts/138-optimizar-mysql/" data-title="Optimizar MYSQL." data-description="" data-media="" class="prettySocial fa fa-facebook"></a>
+                            <a href="#" data-type="googleplus" data-url="http://localhost:1313/old_blog_posts/138-optimizar-mysql/" data-description="" class="prettySocial fa fa-google-plus"></a>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="post-description">
+                        <p>Si tienes la necesidad de optimizar mysql puedes usar el siguiente programa: MySQLTunner <a href="http://blog.mysqltuner.com/download/">http://blog.mysqltuner.com/download/</a> Lo descargas con</p>
+
+<blockquote>
+<p>wget mysqltuner.ply lo ejecutas&gt; perl mysqltuner.plTe preguntara el usuario de la base de datos, y el password de la base de datos. y te dara instrucciones de que variables configurar en el archivo my.cnf asi como consejos para tus aplicaciones que usen mysql. Ejemplo&gt; Server:~# perl mysqltuner.pl &gt;&gt; MySQLTuner 1.0.1 - Major Hayden <major>
+&gt;&gt; Bug reports, feature requests, and downloads at <a href="http://mysqltuner.com/">http://mysqltuner.com/</a>
+&gt;&gt; Run with &lsquo;&ndash;help&rsquo; for additional options and output filtering
+Please enter your MySQL administrative login: root
+Please enter your MySQL administrative password:</p>
+
+<p>&mdash;&mdash;&ndash; General Statistics &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+[&ndash;] Skipped version check for MySQLTuner script
+[OK] Currently running supported MySQL version 5.0.51a-24+lenny3-log
+[OK] Operating on 64-bit architecture</p>
+
+<p>&mdash;&mdash;&ndash; Storage Engine Statistics &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-
+[&ndash;] Status: +Archive -BDB -Federated -InnoDB -ISAM -NDBCluster
+[&ndash;] Data in MyISAM tables: 175M (Tables: 419)
+[OK] Total fragmented tables: 0</p>
+
+<p>&mdash;&mdash;&ndash; Performance Metrics &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-
+[&ndash;] Up for: 20m 47s (6K q [5.370 qps], 1K conn, TX: 21M, RX: 525K)
+[&ndash;] Reads / Writes: 96% / 4%
+[&ndash;] Total buffers: 138.0M global + 2.6M per thread (300 max threads)
+[OK] Maximum possible memory usage: 925.5M (45% of installed RAM)
+[OK] Slow queries: 0% (0/6K)
+[OK] Highest usage of available connections: 1% (<sup>4</sup>&frasl;<sub>300</sub>)
+[OK] Key buffer size / total MyISAM indexes: 32.0M/31.8M
+[!!] Key buffer hit rate: 89.2% (14K cached / 1K reads)
+[OK] Query cache efficiency: 22.9% (839 cached / 3K selects)
+[OK] Query cache prunes per day: 0
+[OK] Sorts requiring temporary tables: 0% (0 temp sorts / 273 sorts)
+[!!] Joins performed without indexes: 13
+[OK] Temporary tables created on disk: 24% (96 on disk / 394 total)
+[OK] Thread cache hit rate: 99% (4 created / 1K connections)
+[!!] Table cache hit rate: 5% (47 open / 925 opened)
+[OK] Open file limit used: 2% (95/4K)
+[OK] Table locks acquired immediately: 100% (2K immediate / 2K locks)</p>
+
+<p>&mdash;&mdash;&ndash; Recommendations &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+General recommendations:
+MySQL started within last 24 hours - recommendations may be inaccurate
+Adjust your join queries to always utilize indexes
+Increase table_cache gradually to avoid file descriptor limits
+Variables to adjust:
+join_buffer_size (&gt; 128.0K, or always use indexes with joins)
+table_cache (&gt; 2048)</major></p>
+</blockquote>
+
+                    </div>
+                    
+                </section>
+            </div>
+            <div class="footer">
+    <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <ul>
+            <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+        </ul>
+    </div>
+</div>
+<script src="http://localhost:1313//js/all.min.js"></script>
+        </div>
+    </div>
+</div>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me &#39;hackearon&#39; un blog. &middot; Diego Michel Rubio Ramirez Software Engineer</title>
+
+    <meta name="description" content="">
+
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="twitter:card" content="summary">
+    
+    <meta name="twitter:title" content="Me &#39;hackearon&#39; un blog. &middot; Diego Michel Rubio Ramirez Software Engineer">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Me &#39;hackearon&#39; un blog. &middot; Diego Michel Rubio Ramirez Software Engineer">
+    <meta property="og:description" content="">
+
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://localhost:1313//css/all.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/rss+xml" title="Diego Michel Rubio Ramirez Software Engineer" href="http://localhost:1313//index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <hgroup>
+            <h1 class="brand-title"><a href="http://localhost:1313/">Diego Michel Rubio Ramirez Software Engineer</a></h1>
+            <h2 class="brand-tagline"></h2>
+        </hgroup>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://localhost:1313//index.xml"><i class="fa fa-rss"></i> rss</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            
+            <div class="posts">
+                <h1 class="content-subhead">18 Nov 2007, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/old_blog_posts/63-me-hackearon-un-blog/" class="post-title">Me &#39;hackearon&#39; un blog.</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-share">
+                        <div class="post-share-links">
+                            <h4 style="">Share</h4>
+                            <a href="#" data-type="facebook" data-url="http://localhost:1313/old_blog_posts/63-me-hackearon-un-blog/" data-title="Me &#39;hackearon&#39; un blog." data-description="" data-media="" class="prettySocial fa fa-facebook"></a>
+                            <a href="#" data-type="googleplus" data-url="http://localhost:1313/old_blog_posts/63-me-hackearon-un-blog/" data-description="" class="prettySocial fa fa-google-plus"></a>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="post-description">
+                        <p>&nbsp;</p>
+
+<p>Pues eso que me han hackeado el blog de <a href="http://versosdeamor.info">versos de amor</a> (aprovecho el link para que google mire que ya la arregle xD), lo que han hecho es aprovecharse de una vulnerabilidad en el archivo links.php(encargado de agregar los links a la base de datos.) que permite a usuarios registrados agregar links sin permiso.</p>
+
+<p>Pues revisando hoy el posicionamiento en Google me di cuenta que esa pagina bajo en los resultados, y decidí estudiar el problema y cual fue mi sorpresa al ver la caché de Google mostraba tres links los cuales apuntan a un blog de la universidad de Yale:</p>
+
+<p>hxxp://xenon.physics.yale.edu/~nikx/home/wp-content/includes/cache/cialis/buy-cialis.html</p>
+
+<p>hxxp://xenon.physics.yale.edu/~nikx/home/wp-content/includes/cache/cialis/buy-cialis-online.html</p>
+
+<p>hxxp://xenon.physics.yale.edu/~nikx/home/wp-content/includes/cache/cialis/cheap-cialis.html</p>
+
+<p>Los cuales al mismo tiempo redireccionan a:</p>
+
+<p>hxxp://trustedtablets.com/cialis.htm?wm=4497&amp;tr=8027</p>
+
+<p>&nbsp; ****Sustituir las x en hxxp por t****</p>
+
+<p>En la cual parece que venden viagra o algo así.</p>
+
+<p>Investigue un poco mas del bug y se que afecta a la versión de WordPress 2.3 y todas las anteriores, ese blog tiene una versión anterior a la 2.3 y tenia el registro de usuarios activado, hasta el día de hoy.</p>
+
+<p>También se que existe una solución, la cual es actualizar el archivo links.php, pero parece que solo es para el WordPress 2.3.</p>
+
+<p>En esa pagina tengo demasiados usuarios registrados y no se cual de ellos fue el que hizo semejante atrocidad, así que tendré que borrarlos todos, por ahora no me interesa actualizar WordPress.</p>
+
+<p>En SigT.net nos enseñan <a href="http://sigt.net/archivo/exploit-en-wordpress-permite-anadir-enlaces-al-blogroll.xhtml">como solucionarlo</a> y ponen un poco mas de información.</p>
+
+<p>WordPress Blogroll Hack</p>
+
+                    </div>
+                    
+                </section>
+            </div>
+            <div class="footer">
+    <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <ul>
+            <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+        </ul>
+    </div>
+</div>
+<script src="http://localhost:1313//js/all.min.js"></script>
+        </div>
+    </div>
+</div>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

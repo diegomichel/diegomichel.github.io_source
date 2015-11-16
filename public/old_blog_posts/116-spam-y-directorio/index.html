@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam y directorio. &middot; Diego Michel Rubio Ramirez Software Engineer</title>
+
+    <meta name="description" content="">
+
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="twitter:card" content="summary">
+    
+    <meta name="twitter:title" content="Spam y directorio. &middot; Diego Michel Rubio Ramirez Software Engineer">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Spam y directorio. &middot; Diego Michel Rubio Ramirez Software Engineer">
+    <meta property="og:description" content="">
+
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://localhost:1313//css/all.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/rss+xml" title="Diego Michel Rubio Ramirez Software Engineer" href="http://localhost:1313//index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <hgroup>
+            <h1 class="brand-title"><a href="http://localhost:1313/">Diego Michel Rubio Ramirez Software Engineer</a></h1>
+            <h2 class="brand-tagline"></h2>
+        </hgroup>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://localhost:1313//index.xml"><i class="fa fa-rss"></i> rss</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            
+            <div class="posts">
+                <h1 class="content-subhead">17 Jan 2010, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/old_blog_posts/116-spam-y-directorio/" class="post-title">Spam y directorio.</a>
+
+                        <p class="post-meta">
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-share">
+                        <div class="post-share-links">
+                            <h4 style="">Share</h4>
+                            <a href="#" data-type="facebook" data-url="http://localhost:1313/old_blog_posts/116-spam-y-directorio/" data-title="Spam y directorio." data-description="" data-media="" class="prettySocial fa fa-facebook"></a>
+                            <a href="#" data-type="googleplus" data-url="http://localhost:1313/old_blog_posts/116-spam-y-directorio/" data-description="" class="prettySocial fa fa-google-plus"></a>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="post-description">
+                        <p>Wow, acabo de validar 300 paginas web en el <a href="http://directorioweb.me">directorio web</a> que tengo. Estas son mis impresiones: 10% Paginas de alta calidad 40% Paginas de media calidad 20% Paginas de calidad baja 30% Spam vil y malo. De ese 30% de spam mucho venia de un tal anselmo.chambers ya le he baneado todos los dominios en caso de que trate de hacer spam otra vez jojojo, ya que el muy inteligente uso ip diferentes para cada envi lololol el tip de desconectar y reconectar el mdem, pero no contaba que en el whois todos sus dominios compartian el mismo email, DNS, probablemente la misma ip pero no cheque, etc. As que cree un script php para desahecerme de el :&gt;.</p>
+
+<blockquote>
+<p>&lt;? $host=&ldquo;localhost&rdquo;; $database=&ldquo;removed&rdquo;; $dbusername=&ldquo;removed&rdquo;; $dbpassword=&ldquo;removed&rdquo;; function conectar() { global $host, $database, $dbusername, $dbpassword; $link = mysql_connect(&ldquo;$host&rdquo;, &ldquo;$dbusername&rdquo;, &ldquo;$dbpassword&rdquo;); if (!$link) { /*die(&lsquo;Could not connect: &lsquo; . mysql_error());*/ echo &ldquo;<center><h1>Configure el acceso a base de datos.</h1></center>&rdquo;; } mysql_select_db(&ldquo;$database&rdquo;); } function getDomain($url) { if(filter_var($url, FILTER_VALIDATE_URL, FILTER_FLAG_HOST_REQUIRED) === FALSE) { return false; } $parts = parse_url($url); /*** return the host domain ***/ return $parts[&lsquo;host&rsquo;]; } function cleandomain($url) { while(substr_count($url,&ldquo;.&rdquo;) &gt; 1) { if(substr_count($url,&ldquo;.&rdquo;) == 2) { //Esto es para los subdominios $point2 = stripos($url,&ldquo;.&rdquo;); $tempurl = substr($url,$point2+1); //tempurl tendra la forma xxx.xxx $point2 = stripos($tempurl,&ldquo;.&rdquo;); if($point2 &lt; 4) { return $url; break; } } $point = stripos($url,&ldquo;.&rdquo;); $url = substr($url,$point+1); } return $url; } conectar(); $query = &ldquo;SELECT id, url FROM paginas WHERE validada = 0&rdquo;; $result = mysql_query($query); while($row = mysql_fetch_row($result)) { $output=&ldquo;&rdquo;; $domain = getDomain($row[1]); $domain = cleandomain($domain); exec(&ldquo;whois $domain&rdquo;, &amp;$output); $texto = implode(&ldquo;n&rdquo;, $output); if(stripos($texto,&ldquo;anselmo.chambers&rdquo;) !== FALSE || stripos($texto,&ldquo;NS02.ONEWORLDOFFICE.NET&rdquo;) !== FALSE) { echo &ldquo;!!! &ldquo;; $query = &ldquo;UPDATE paginas SET baneada=&lsquo;1&rsquo; WHERE id = &lsquo;$row[0]&lsquo;&ldquo;; mysql_query($query); } sleep(3); echo $domain. &ldquo;n&rdquo;; } ?&gt;Esto lo ejecuto desde la consola del servidor, un script como este de cara al publico es un gran problema de seguridad. En fin si quieren ganar visitas no olviden enviar su pagina web a mi <a href="http://directorioweb.me">directorio web</a>. Tambin estoy creando una lista de directorios que no piden reciproco obligatorio, una vez la tenga completa se las pongo por aqui para que ustedes enven sus paginas tambien.</p>
+</blockquote>
+
+                    </div>
+                    
+                </section>
+            </div>
+            <div class="footer">
+    <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <ul>
+            <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+        </ul>
+    </div>
+</div>
+<script src="http://localhost:1313//js/all.min.js"></script>
+        </div>
+    </div>
+</div>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
