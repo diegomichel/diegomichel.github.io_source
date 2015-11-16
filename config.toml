@@ -1,3 +1,6 @@
 baseurl = "http://diegomichel.org/"
 languageCode = "es-MX"
 title = "Diego Michel Rubio Ramirez Software Engineer"
+contentdir = "content"
+publishdir = "public"
+theme = "redlounge"
