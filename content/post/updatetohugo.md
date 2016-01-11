@@ -1,6 +1,6 @@
 +++
 date = "2015-11-12T22:20:32-06:00"
-title = "first"
+title = "Updated to goHugo"
 +++
 
 I dont update this blog as much as i would like, and it was using wordpress with mysql, which seems to be a waste of resources, so i will give a go to [gohugo.io](http://gohugo.io) which was recommended to me by [Frank from EmberIgniter](http://emberigniter.com).
@@ -11,4 +11,4 @@ So how it's my setup
 
 1. Hugo and markdown files hosted with [BitBucket](http://bitbucket.org)
 2. A copy on my personal laptop where i update and do push either to bitbucket or my server
-3. Server running [G-Wan](http://gwan.com)
+3. Server running [nginx](http://nginx.org), considered G-Wan but it didn't run and then i read alot of reviews saying that it was insecure.
