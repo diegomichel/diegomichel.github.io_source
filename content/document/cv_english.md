@@ -1,7 +1,7 @@
   +++
 date = "2015-12-18T03:28:04-06:00"
-title = "C.V. English"
-draft = true
+title = "Diego Michel Rubio Ramirez - Software Engineer"
+draft = false
 +++
 <div class="container">
   <div class="row">
@@ -27,7 +27,7 @@ draft = true
   </div>
   <div class=row>
     <div class="col-xs-4"><strong>Ruby on Rails Developer</strong></div>
-    <div class="col-xs-5"><p class="text-center"><strong>AgileKoding</strong></p></div>
+    <div class="col-xs-5"><p class="text-center"><strong>I.T. Startup; Custom Web/Mobile Solutions</strong></p></div>
     <div class="col-xs-3">
       <div class="row text-right"><strong>July 2015 - now</strong></div>
     </div>
@@ -82,8 +82,8 @@ draft = true
     </div>
   </div>
   <div class=row>
-    <div class="col-xs-5"><strong>Software Engineer</strong></div>
-    <div class="col-xs-3"><p class="text-center"><strong>Freelance</strong></p></div>
+    <div class="col-xs-5"><strong>Software Engineer/Sysadmin</strong></div>
+    <div class="col-xs-3"><p class="text-center"><strong>X Servers</strong></p></div>
     <div class="col-xs-4">
       <div class="row text-right"><strong> 2006 - 2014</strong></div>
     </div>
