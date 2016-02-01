@@ -1,0 +1,12 @@
++++
+date = "2016-01-03T17:48:14-06:00"
+title = "Amazon AWS Free Tier"
++++
+
+http://aws.amazon.com/free is offering 12 months of EC2 service or any of the ones they list of the website.
+
+I just created my first EC2 instance its a bit of a hasle due all the new administrative tools that AWS has implemented as a layer for administrating and inter-connecting their own services.
+
+You exchange all the time you would expend installing linux from scratch on a dedicated server to creating security groups and users, but after those first steps everything is easy, as always you will have to select distribution, volumes and so on, and after 5 minutes you are logged in in to your own server.
+
+In the past i have used Softlayer Cloud(when they just started offering it), and the performance was poor compared to a dedicated server I used to have with them too. So in the next days i will be testing how good this micro instance is.
