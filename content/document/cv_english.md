@@ -1,4 +1,4 @@
-  +++
++++
 date = "2015-12-18T03:28:04-06:00"
 title = "Diego Michel Rubio Ramirez - Software Engineer"
 draft = false
@@ -77,7 +77,7 @@ draft = false
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Full design and implementation of a Java application for the assitance of teachers.</li>
+        <li>Full design and implementation of a Java application for the assistance of teachers.</li>
       </ul>
     </div>
   </div>
