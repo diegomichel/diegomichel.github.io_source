@@ -38,8 +38,8 @@ draft = false
       <ul>
         <li>API REST building for Mobile Application.</li>
         <li>Automation of deployment.</li>
-        <li>Multi Dimentional charts for data visualization.</li>
-        <li>Improvement on searchs and menu usability.</li>
+        <li>Multi Dimensional charts for data visualization.</li>
+        <li>Improvement on searches and menu usability.</li>
         <li>Migration to current version of rails, improvements on syntax and performance.</li>
       </ul>
     </div>
@@ -48,7 +48,7 @@ draft = false
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Addition of new features to an existing app</li>
+        <li>Addition of new features to an existing app.</li>
         <li>Stabilization of Rails 4 application and Android mobile application.</li>
         <li>Automation of windows rails services restart.</li>
       </ul>
@@ -60,7 +60,7 @@ draft = false
       <ul>
         <li>Reverse engineered an algorithm to decode ID of RFID cards.</li>
         <li>Bugfixed two urgent/important issues regarding sensors.</li>
-        <li>Fullstack implementation of multiple image downloader.</li>
+        <li>Full Stack implementation of multiple image downloader.</li>
         <li>Mockup elaboration using proto.io.</li>
         <li>Bug fix Android application issue.</li>
       </ul>
@@ -121,7 +121,7 @@ draft = false
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>BSc. Mechatronics Engeneering Degree. Score: 98.84 /100.</li>
+        <li>BSc. Mechatronics Engineering Degree. Score: 98.84 /100.</li>
       </ul>
     </div>
   </div>
@@ -143,8 +143,8 @@ draft = false
       <ul>
         <li><strong>System to build habits</strong>. Python Django MVC, Jquery, HTML, CSS3.</li>
         <li><strong>2D Platformer for Android</strong> Teeport 2D game written in Java for Android.</li>
-        <li><strong>Inventories Systems for a Store</strong>. PHP.</li>
-        <li><strong>Collaboration in a opensource Video Game</strong>. C, MySQL, PHP.</li>
+        <li><strong>Inventories system for a Store</strong>. PHP, Mysql.</li>
+        <li><strong>Collaboration in a open source Video Game</strong>. C, MySQL, PHP.</li>
       </ul>
     </div>
   </div>
@@ -156,13 +156,13 @@ draft = false
           Programming Languages: Ruby; Python; Java; PHP; C; Javascript; HTML; CSS.
         </li>
         <li>
-          Frameworks: Ruby on Rails; Django; Boostrap; Ember.js.
+          Frameworks: Ruby on Rails; Django; Bootstrap; Ember.js.
         </li>
         <li>
-          Herramientas: Linux Debian, Gentoo; Mac OS X; Windows; Android Studio; Netbeans; Eclipse.
+          Tools: Linux Debian, Gentoo; Mac OS X; Windows; Android Studio; Netbeans; Eclipse.
         </li>
         <li>
-          Poweruser of vim, tmux, linux, ssh, git.
+          Power user of vim, tmux, linux, ssh, git.
         </li>
       </ul>
     </div>
@@ -172,10 +172,10 @@ draft = false
     <div class=col-xs-12>
       <ul>
         <li>
-          English: Reading: 98%, Writting: 85%, Speaking: 85%, Listening: 95%; Business Level English; Private lessons last 7 months.
+          English: Reading: 98%, Writing: 85%, Speaking: 85%, Listening: 95%; Business Level English; Private lessons last 7 months.
         </li>
         <li>
-          Spanish: Mother Tong.
+          Spanish: Mother Tongue.
         </li>
       </ul>
     </div>
