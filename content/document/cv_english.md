@@ -7,10 +7,10 @@ draft = false
   <div class="row">
     <div class="col-xs-4">
       <div class="row">
-        Villas del Sol 5857
+        Obregon 643
       </div>
       <div class="row">
-        Colli Urbano, Zapopan, Jal.
+        Centro, Guasave, Sinaloa.
       </div>
     </div>
     <div class="col-xs-5">
@@ -27,9 +27,46 @@ draft = false
   </div>
   <div class=row>
     <div class="col-xs-4"><strong>Ruby on Rails Developer</strong></div>
+    <div class="col-xs-5"><p class="text-center"><strong>Novotorium</strong></p></div>
+    <div class="col-xs-3">
+      <div class="row text-right"><strong>May 2016 - Now</strong></div>
+    </div>
+  </div>
+  <div class=row><div class=col-xs-12>BOS</div></div>
+  <div class=row>
+    <div class=col-xs-12>
+      <ul>
+        <li>Debug and fixed issue with ruby process being killed by linux.</li>
+        <li>Added code improvements like the use of partials.</li>
+      </ul>
+    </div>
+  </div>
+  <div class=row><div class=col-xs-12>HFN</div></div>
+  <div class=row>
+    <div class=col-xs-12>
+      <ul>
+        <li>Optimize the system so it loaded under 3 seconds.</li>
+        <li>Added missing cucumber tests.</li>
+        <li>Frontend Tweaks.</li>
+      </ul>
+    </div>
+  </div>
+  <div class=row><div class=col-xs-12>MobileApp ionic</div></div>
+  <div class=row>
+    <div class=col-xs-12>
+      <ul>
+        <li>Inherited code base from another dev and make it work.</li>
+        <li>Prepare application to be more dev friendly.</li>
+        <li>Figured out iOS certification process under linux.</li>
+        <li>Write documentation for project.</li>
+      </ul>
+    </div>
+  </div>
+  <div class=row>
+    <div class="col-xs-4"><strong>Ruby on Rails Developer</strong></div>
     <div class="col-xs-5"><p class="text-center"><strong>I.T. Startup; Custom Web/Mobile Solutions</strong></p></div>
     <div class="col-xs-3">
-      <div class="row text-right"><strong>July 2015 - now</strong></div>
+      <div class="row text-right"><strong>July 2015 - June 2016</strong></div>
     </div>
   </div>
   <div class=row><div class=col-xs-12>EMAP</div></div>
@@ -48,7 +85,6 @@ draft = false
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Addition of new features to an existing app.</li>
         <li>Stabilization of Rails 4 application and Android mobile application.</li>
         <li>Automation of windows rails services restart.</li>
       </ul>
@@ -59,10 +95,7 @@ draft = false
     <div class=col-xs-12>
       <ul>
         <li>Reverse engineered an algorithm to decode ID of RFID cards.</li>
-        <li>Bugfixed two urgent/important issues regarding sensors.</li>
         <li>Full Stack implementation of multiple image downloader.</li>
-        <li>Mockup elaboration using proto.io.</li>
-        <li>Bug fix Android application issue.</li>
       </ul>
     </div>
   </div>
