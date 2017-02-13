@@ -32,11 +32,21 @@ draft = false
       <div class="row text-right"><strong>May 2016 - Now</strong></div>
     </div>
   </div>
+  <div class=row><div class=col-xs-12>Galvanizer</div></div>
+  <div class=row>
+    <div class=col-xs-12>
+      <ul>
+        <li>Managed backlog and organized team and tasks.</li>
+        <li>Frontend development using bootstrap.</li>
+        <li>D3.js visualization with data from GlassFrog API.</li>
+      </ul>
+    </div>
+  </div>
   <div class=row><div class=col-xs-12>BOS</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Debug and fixed issue with ruby process being killed by linux.</li>
+        <li>Debug and fixed issue with ruby process being killed by Linux.</li>
         <li>Added code improvements like the use of partials.</li>
       </ul>
     </div>
@@ -57,8 +67,19 @@ draft = false
       <ul>
         <li>Inherited code base from another dev and make it work.</li>
         <li>Prepare application to be more dev friendly.</li>
-        <li>Figured out iOS certification process under linux.</li>
+        <li>Figured out iOS certification process under Linux.</li>
         <li>Write documentation for project.</li>
+      </ul>
+    </div>
+  </div>
+  <div class=row><div class=col-xs-12>Misc</div></div>
+  <div class=row>
+    <div class=col-xs-12>
+      <ul>
+        <li>Teach and supervise a junior developer.</li>
+        <li>Lead Chef Journeys.</li>
+        <li>Completed course Introduction to Data Science with Python.</li>
+        <li>Review code from coworkers.</li>
       </ul>
     </div>
   </div>
@@ -189,13 +210,13 @@ draft = false
           Programming Languages: Ruby; Python; Java; PHP; C; Javascript; HTML; CSS.
         </li>
         <li>
-          Frameworks: Ruby on Rails; Django; Bootstrap; Ember.js.
+          Frameworks: Ruby on Rails; Ionic; Django; Bootstrap; Ember.js.
         </li>
         <li>
           Tools: Linux Debian, Gentoo; Mac OS X; Windows; Android Studio; Netbeans; Eclipse.
         </li>
         <li>
-          Power user of vim, tmux, linux, ssh, git.
+          Power user of vim, tmux, Linux, ssh, git.
         </li>
       </ul>
     </div>
