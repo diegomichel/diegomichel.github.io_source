@@ -14,7 +14,7 @@ draft = false
       </div>
     </div>
     <div class="col-xs-5">
-      <h3 class="text-left">Diego Rubio Ramírez</h3>
+      <h3 class="text-center">Diego Rubio Ramírez</h3>
     </div>
     <div class="col-xs-3">
       <div class="row text-right">(331) 863-7048</div>
@@ -36,9 +36,12 @@ draft = false
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Managed backlog and organized team and tasks.</li>
-        <li>Frontend development using bootstrap.</li>
+        <li>Managed the backlog and organized the team.</li>
+        <li>Build a wrapper for GlassFrog API using Ruby metaprogramming.</li>
         <li>D3.js visualization with data from GlassFrog API.</li>
+        <li>Frontend development using Bootstrap.</li>
+        <li>Managed and configured apps on Heroku.</li>
+        <li>Guided a non-technical person on how to use Git, Heroku and c9.io.</li>
       </ul>
     </div>
   </div>
@@ -46,7 +49,7 @@ draft = false
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Debug and fixed issue with ruby process being killed by Linux.</li>
+        <li>Debugged and fixed issue with ruby process being killed by Linux.</li>
         <li>Added code improvements like the use of partials.</li>
       </ul>
     </div>
@@ -55,9 +58,9 @@ draft = false
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Optimize the system so it loaded under 3 seconds.</li>
+        <li>Optimized the system so it loaded under three seconds.</li>
+        <li>Managed AWS instances, deployed changes with Chef.</li>
         <li>Added missing cucumber tests.</li>
-        <li>Frontend Tweaks.</li>
       </ul>
     </div>
   </div>
@@ -66,9 +69,10 @@ draft = false
     <div class=col-xs-12>
       <ul>
         <li>Inherited code base from another dev and make it work.</li>
-        <li>Prepare application to be more dev friendly.</li>
-        <li>Figured out iOS certification process under Linux.</li>
-        <li>Write documentation for project.</li>
+        <li>Prepared application to be more dev friendly.</li>
+        <li>Documented iOS app signing process under Linux.</li>
+        <li>Tested and debugged Push Notification service with AWS.</li>
+        <li>Added Google Tag Manager and Google Analytics to a hybrid app.</li>
       </ul>
     </div>
   </div>
@@ -76,16 +80,16 @@ draft = false
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Teach and supervise a junior developer.</li>
+        <li>Mentor a junior developer.</li>
         <li>Lead Chef Journeys.</li>
         <li>Completed course Introduction to Data Science with Python.</li>
-        <li>Review code from coworkers.</li>
+        <li>Reviewed code from coworkers and had my code reviewed.</li>
       </ul>
     </div>
   </div>
   <div class=row>
     <div class="col-xs-4"><strong>Ruby on Rails Developer</strong></div>
-    <div class="col-xs-5"><p class="text-center"><strong>I.T. Startup; Custom Web/Mobile Solutions</strong></p></div>
+    <div class="col-xs-5"><p class="text-center"><strong>AgileKoding</strong></p></div>
     <div class="col-xs-3">
       <div class="row text-right"><strong>July 2015 - June 2016</strong></div>
     </div>
@@ -98,7 +102,7 @@ draft = false
         <li>Automation of deployment.</li>
         <li>Multi Dimensional charts for data visualization.</li>
         <li>Improvement on searches and menu usability.</li>
-        <li>Migration to current version of rails, improvements on syntax and performance.</li>
+        <li>Migration to the current version of rails, improvements on syntax and performance.</li>
       </ul>
     </div>
   </div>
@@ -107,7 +111,7 @@ draft = false
     <div class=col-xs-12>
       <ul>
         <li>Stabilization of Rails 4 application and Android mobile application.</li>
-        <li>Automation of windows rails services restart.</li>
+        <li>Automation of Windows rails services restart.</li>
       </ul>
     </div>
   </div>
@@ -120,6 +124,7 @@ draft = false
       </ul>
     </div>
   </div>
+  <br />
   <div class=row>
     <div class="col-xs-5"><strong>Software Engineer</strong></div>
     <div class="col-xs-3"><p class="text-center"><strong>CUCSUR</strong></p></div>
@@ -198,7 +203,7 @@ draft = false
         <li><strong>System to build habits</strong>. Python Django MVC, Jquery, HTML, CSS3.</li>
         <li><strong>2D Platformer for Android</strong> Teeport 2D game written in Java for Android.</li>
         <li><strong>Inventories system for a Store</strong>. PHP, Mysql.</li>
-        <li><strong>Collaboration in a open source Video Game</strong>. C, MySQL, PHP.</li>
+        <li><strong>Collaboration in an open source Video Game</strong>. C, MySQL, PHP.</li>
       </ul>
     </div>
   </div>
@@ -226,7 +231,7 @@ draft = false
     <div class=col-xs-12>
       <ul>
         <li>
-          English: Reading: 98%, Writing: 85%, Speaking: 85%, Listening: 95%; Business Level English; Private lessons last 7 months.
+          English: Reading: 98%, Writing: 85%, Speaking: 85%, Listening: 95%; Business Level English.
         </li>
         <li>
           Spanish: Mother Tongue.
