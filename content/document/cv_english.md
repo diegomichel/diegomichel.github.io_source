@@ -7,7 +7,7 @@ draft = false
   <div class="row">
     <div class="col-xs-4">
       <div class="row">
-        Obregon 643
+        Obregon #643
       </div>
       <div class="row">
         Centro, Guasave, Sinaloa.
@@ -87,6 +87,7 @@ draft = false
       </ul>
     </div>
   </div>
+  <br />
   <div class=row>
     <div class="col-xs-4"><strong>Ruby on Rails Developer</strong></div>
     <div class="col-xs-5"><p class="text-center"><strong>AgileKoding</strong></p></div>
@@ -140,6 +141,7 @@ draft = false
       </ul>
     </div>
   </div>
+  <br />
   <div class=row>
     <div class="col-xs-5"><strong>Software Engineer/Sysadmin</strong></div>
     <div class="col-xs-3"><p class="text-center"><strong>X Servers</strong></p></div>
@@ -166,6 +168,7 @@ draft = false
       </ul>
     </div>
   </div>
+  <br />
   <div class=row>
     <h4>Education</h4>
     <hr />
@@ -180,7 +183,7 @@ draft = false
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>BSc. Mechatronics Engineering Degree. Score: 98.84 /100.</li>
+        <li>BSc. Mechatronics Engineering Degree. Score: 98.84 / 100.</li>
       </ul>
     </div>
   </div>
