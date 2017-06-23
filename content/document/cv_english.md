@@ -49,6 +49,7 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
+        <li>Fixed test-suite Cucumber Tests / CircleCI.</li>
         <li>Debugged and fixed issue with ruby process being killed by Linux.</li>
         <li>Added code improvements like the use of partials.</li>
       </ul>
@@ -58,6 +59,7 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
+        <li>Integrated Stripe Payments.</li>
         <li>Optimized the system so it loaded under three seconds.</li>
         <li>Managed AWS instances, deployed changes with Chef.</li>
         <li>Added missing cucumber tests.</li>
@@ -210,7 +212,7 @@ draft = true
       </ul>
     </div>
   </div>
-  <div class=row><div class=col-xs-12>Languages and Technologies</div></div>
+  <div class=row><div class=col-xs-12>Programming Languages and Technologies</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
