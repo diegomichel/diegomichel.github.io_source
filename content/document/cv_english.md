@@ -60,9 +60,8 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>Integrated Stripe Payments.</li>
-        <li>Optimized the system so it loaded under three seconds.</li>
+        <li>Optimized it to load under three seconds.</li>
         <li>Managed AWS instances, deployed changes with Chef.</li>
-        <li>Added missing cucumber tests.</li>
       </ul>
     </div>
   </div>
@@ -89,7 +88,6 @@ draft = true
       </ul>
     </div>
   </div>
-  <br />
   <div class=row>
     <div class="col-xs-4"><strong>Ruby on Rails Developer</strong></div>
     <div class="col-xs-5"><p class="text-center"><strong>AgileKoding</strong></p></div>
@@ -105,7 +103,6 @@ draft = true
         <li>Automation of deployment.</li>
         <li>Multi Dimensional charts for data visualization.</li>
         <li>Improvement on searches and menu usability.</li>
-        <li>Migration to the current version of rails, improvements on syntax and performance.</li>
       </ul>
     </div>
   </div>
@@ -114,7 +111,6 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>Stabilization of Rails 4 application and Android mobile application.</li>
-        <li>Automation of Windows rails services restart.</li>
       </ul>
     </div>
   </div>
@@ -123,11 +119,9 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>Reverse engineered an algorithm to decode ID of RFID cards.</li>
-        <li>Full Stack implementation of multiple image downloader.</li>
       </ul>
     </div>
   </div>
-  <br />
   <div class=row>
     <div class="col-xs-5"><strong>Software Engineer</strong></div>
     <div class="col-xs-3"><p class="text-center"><strong>CUCSUR</strong></p></div>
@@ -143,7 +137,6 @@ draft = true
       </ul>
     </div>
   </div>
-  <br />
   <div class=row>
     <div class="col-xs-5"><strong>Software Engineer/Sysadmin</strong></div>
     <div class="col-xs-3"><p class="text-center"><strong>X Servers</strong></p></div>
@@ -157,7 +150,6 @@ draft = true
       <ul>
         <li>Server initial setup, firewall setup with APF.</li>
         <li>Setup and debugging logs for web and mail servers.</li>
-        <li>Automation of tasks.</li>
       </ul>
     </div>
   </div>
@@ -166,11 +158,9 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>Provide the best gaming experience by monitoring and fixing issues with latency.</li>
-        <li>DDOS UDP attack mitigation.</li>
       </ul>
     </div>
   </div>
-  <br />
   <div class=row>
     <h4>Education</h4>
     <hr />
@@ -205,9 +195,9 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li><strong>System to build habits</strong>. Python Django MVC, Jquery, HTML, CSS3.</li>
+        <li><strong>System to build habits</strong>. Python Django MVC, Jquery, HTML, CSS.</li>
         <li><strong>2D Platformer for Android</strong> Teeport 2D game written in Java for Android.</li>
-        <li><strong>Inventories system for a Store</strong>. PHP, Mysql.</li>
+        <li><strong>Inventory system for a Store</strong>. PHP, Mysql.</li>
         <li><strong>Collaboration in an open source Video Game</strong>. C, MySQL, PHP.</li>
       </ul>
     </div>
@@ -220,26 +210,13 @@ draft = true
           Programming Languages: Ruby; Python; Java; PHP; C; Javascript; HTML; CSS.
         </li>
         <li>
-          Frameworks: Ruby on Rails; Ionic; Django; Bootstrap; Ember.js.
+          Frameworks: Ruby on Rails; Ionic; Django; Bootstrap.
         </li>
         <li>
-          Tools: Linux Debian, Gentoo; Mac OS X; Windows; Android Studio; Netbeans; Eclipse.
+          Tools: Linux Debian, Gentoo; Mac OS X; Windows; Android Studio.
         </li>
         <li>
           Power user of vim, tmux, Linux, ssh, git.
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class=row><div class=col-xs-12>Languages</div></div>
-  <div class=row>
-    <div class=col-xs-12>
-      <ul>
-        <li>
-          English: Reading: 98%, Writing: 85%, Speaking: 85%, Listening: 95%; Business Level English.
-        </li>
-        <li>
-          Spanish: Mother Tongue.
         </li>
       </ul>
     </div>
