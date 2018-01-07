@@ -32,16 +32,17 @@ draft = true
       <div class="row text-right"><strong>May 2016 - Now</strong></div>
     </div>
   </div>
-  <div class=row><div class=col-xs-12>Galvanizer</div></div>
+  <div class=row><div class=col-xs-12>Ionic Android/iOS app</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Managed the backlog and organized the team.</li>
-        <li>Build a wrapper for GlassFrog API using Ruby metaprogramming.</li>
-        <li>D3.js visualization with data from GlassFrog API.</li>
-        <li>Frontend development using Bootstrap.</li>
-        <li>Managed and configured apps on Heroku.</li>
-        <li>Guided a non-technical person on how to use Git, Heroku and c9.io.</li>
+        <li>Developed plugin for VOIP calls using a native library.</li>
+        <li>Prepared application to be more dev friendly.</li>
+        <li>Documented iOS app signing process under Linux.</li>
+        <li>Tested and debugged Push Notification service with AWS.</li>
+        <li>Added Google Tag Manager and Google Analytics to the hybrid app.</li>
+        <li>Setup FreeSwitch server in a Docker container.</li>
+        <li>Optimized Docker image size.</li>
       </ul>
     </div>
   </div>
@@ -50,7 +51,7 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>Fixed test-suite Cucumber Tests / CircleCI.</li>
-        <li>Debugged and fixed issue with ruby process being killed by Linux.</li>
+        <li>Debugged and fixed issue with a ruby process being killed by Linux.</li>
         <li>Added code improvements like the use of partials.</li>
       </ul>
     </div>
@@ -65,15 +66,16 @@ draft = true
       </ul>
     </div>
   </div>
-  <div class=row><div class=col-xs-12>MobileApp ionic</div></div>
+  <div class=row><div class=col-xs-12>Galvanizer</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Inherited code base from another dev and make it work.</li>
-        <li>Prepared application to be more dev friendly.</li>
-        <li>Documented iOS app signing process under Linux.</li>
-        <li>Tested and debugged Push Notification service with AWS.</li>
-        <li>Added Google Tag Manager and Google Analytics to a hybrid app.</li>
+        <li>Managed the backlog and organized the team.</li>
+        <li>Built a wrapper for GlassFrog API using Ruby metaprogramming.</li>
+        <li>Developed D3.js visualization with data from GlassFrog API.</li>
+        <li>Frontend development using Bootstrap.</li>
+        <li>Managed and configured apps on Heroku.</li>
+        <li>Guided a non-technical person on how to use Git, Heroku and c9.io.</li>
       </ul>
     </div>
   </div>
@@ -82,7 +84,7 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>Mentor a junior developer.</li>
-        <li>Lead Chef Journeys.</li>
+        <li>Leaded Chef Learning Journeys.</li>
         <li>Completed course Introduction to Data Science with Python.</li>
         <li>Reviewed code from coworkers and had my code reviewed.</li>
       </ul>
@@ -100,9 +102,9 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>API REST building for Mobile Application.</li>
-        <li>Automation of deployment.</li>
+        <li>Automated deployment.</li>
         <li>Multi Dimensional charts for data visualization.</li>
-        <li>Improvement on searches and menu usability.</li>
+        <li>Improved searches and menu usability.</li>
       </ul>
     </div>
   </div>
@@ -183,10 +185,12 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Leader of work group, research, programming and electronic/electric design.</li>
+        <li>Organized the workgroup, did research, programming and electronic/electric design.</li>
       </ul>
     </div>
   </div>
+  <br />
+  <br />
   <div class=row>
     <h4>Technical Experience</h4>
     <hr />
@@ -195,10 +199,10 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li><strong>System to build habits</strong>. Python Django MVC, Jquery, HTML, CSS.</li>
+        <li><strong>A system to build habits</strong>. Python Django MVC, Jquery, HTML, CSS.</li>
         <li><strong>2D Platformer for Android</strong> Teeport 2D game written in Java for Android.</li>
         <li><strong>Inventory system for a Store</strong>. PHP, Mysql.</li>
-        <li><strong>Collaboration in an open source Video Game</strong>. C, MySQL, PHP.</li>
+        <li><strong>Collaborated in an open source Video Game</strong>. C, MySQL, PHP.</li>
       </ul>
     </div>
   </div>
@@ -207,13 +211,13 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>
-          Programming Languages: Ruby; Python; Java; PHP; C; Javascript; HTML; CSS.
+          Programming Languages: Ruby; Java; Javascript; Python; PHP; C; HTML; CSS.
         </li>
         <li>
-          Frameworks: Ruby on Rails; Ionic; Django; Bootstrap.
+          Frameworks: Ruby on Rails; Ionic/Cordova; Bootstrap; Django.
         </li>
         <li>
-          Tools: Linux Debian, Gentoo; Mac OS X; Windows; Android Studio.
+          Tools: Docker; Chef; Linux; Mac OS X; Windows; Android Studio.
         </li>
         <li>
           Power user of vim, tmux, Linux, ssh, git.
