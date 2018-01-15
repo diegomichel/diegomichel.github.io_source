@@ -26,7 +26,7 @@ draft = true
     <hr />
   </div>
   <div class=row>
-    <div class="col-xs-4"><strong>Ruby on Rails Developer</strong></div>
+    <div class="col-xs-4"><strong>Software Engineer</strong></div>
     <div class="col-xs-5"><p class="text-center"><strong>Novotorium</strong></p></div>
     <div class="col-xs-3">
       <div class="row text-right"><strong>May 2016 - Now</strong></div>
@@ -83,13 +83,17 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Mentor a junior developer.</li>
-        <li>Leaded Chef Learning Journeys.</li>
+        <li>Developed an upload module for an Angular 4 Application.</li>
+        <li>Developed a placeholder upload server using multer.js.</li>
+        <li>Mentored a junior developer.</li>
+        <li>Coordinated Angular 4 Learning Journeys.</li>
+        <li>Coordinated Chef Learning Journeys.</li>
         <li>Completed course Introduction to Data Science with Python.</li>
         <li>Reviewed code from coworkers and had my code reviewed.</li>
       </ul>
     </div>
   </div>
+  <br />
   <div class=row>
     <div class="col-xs-4"><strong>Ruby on Rails Developer</strong></div>
     <div class="col-xs-5"><p class="text-center"><strong>AgileKoding</strong></p></div>
@@ -101,9 +105,9 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>API REST building for Mobile Application.</li>
+        <li>Developed REST API for Mobile Application using Grape Ruby Gem.</li>
         <li>Automated deployment.</li>
-        <li>Multi Dimensional charts for data visualization.</li>
+        <li>Developed Multi Dimensional charts for data visualization.</li>
         <li>Improved searches and menu usability.</li>
       </ul>
     </div>
@@ -112,7 +116,7 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Stabilization of Rails 4 application and Android mobile application.</li>
+        <li>Fixed a Rails 4 application and an Android mobile application.</li>
       </ul>
     </div>
   </div>
@@ -124,21 +128,24 @@ draft = true
       </ul>
     </div>
   </div>
+  <br />
   <div class=row>
     <div class="col-xs-5"><strong>Software Engineer</strong></div>
     <div class="col-xs-3"><p class="text-center"><strong>CUCSUR</strong></p></div>
     <div class="col-xs-4">
       <div class="row text-right"><strong>July 2014 - May 2015</strong></div>
-    </div>
+   </div>
   </div>
   <div class=row><div class=col-xs-12>S.I.A. Sistema Integral de Asistencias</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Full design and implementation of a Java application for the assistance of teachers.</li>
+        <li>Designed and implemented a Java application used for the assistance of teachers.</li>
       </ul>
     </div>
   </div>
+  <br />
+  <br />
   <div class=row>
     <div class="col-xs-5"><strong>Software Engineer/Sysadmin</strong></div>
     <div class="col-xs-3"><p class="text-center"><strong>X Servers</strong></p></div>
@@ -150,8 +157,8 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Server initial setup, firewall setup with APF.</li>
-        <li>Setup and debugging logs for web and mail servers.</li>
+        <li>Managed and setup server, firewall setup with APF.</li>
+        <li>Managed and debugged logs for web and mail servers.</li>
       </ul>
     </div>
   </div>
@@ -159,10 +166,13 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Provide the best gaming experience by monitoring and fixing issues with latency.</li>
+        <li>Provided the best gaming experience by monitoring and fixing issues related to latency.</li>
       </ul>
     </div>
   </div>
+  <br />
+  <br />
+  <br />
   <div class=row>
     <h4>Education</h4>
     <hr />
@@ -189,8 +199,6 @@ draft = true
       </ul>
     </div>
   </div>
-  <br />
-  <br />
   <div class=row>
     <h4>Technical Experience</h4>
     <hr />
@@ -202,7 +210,7 @@ draft = true
         <li><strong>A system to build habits</strong>. Python Django MVC, Jquery, HTML, CSS.</li>
         <li><strong>2D Platformer for Android</strong> Teeport 2D game written in Java for Android.</li>
         <li><strong>Inventory system for a Store</strong>. PHP, Mysql.</li>
-        <li><strong>Collaborated in an open source Video Game</strong>. C, MySQL, PHP.</li>
+        <li><strong>Lead an open source Video Game mod development and community</strong>. C, MySQL, PHP.</li>
       </ul>
     </div>
   </div>
@@ -214,7 +222,7 @@ draft = true
           Programming Languages: Ruby; Java; Javascript; Python; PHP; C; HTML; CSS.
         </li>
         <li>
-          Frameworks: Ruby on Rails; Ionic/Cordova; Bootstrap; Django.
+          Frameworks: Ruby on Rails; Ionic/Cordova; Angular 4; Bootstrap; Django.
         </li>
         <li>
           Tools: Docker; Chef; Linux; Mac OS X; Windows; Android Studio.
