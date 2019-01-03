@@ -17,7 +17,7 @@ draft = true
       <h3 class="text-center">Diego Rubio Ramírez</h3>
     </div>
     <div class="col-xs-3">
-      <div class="row text-right">(331) 863-7048</div>
+      <div class="row text-right">Contact</div>
       <div class="row text-right">diegomichel@gmail.com</div>
     </div>
   </div>
@@ -32,10 +32,37 @@ draft = true
       <div class="row text-right"><strong>May 2016 - Now</strong></div>
     </div>
   </div>
+  <div class=row><div class=col-xs-12>Angular app</div></div>
+  <div class=row>
+    <div class=col-xs-12>
+      <ul>
+        <li>Upgraded whole project from Angular 4 to 6.</li>
+        <li>Developed multiple services for fetching and submitting data.</li>
+        <li>Developed paginator component and sorting mixing for reusability.</li>
+        <li>Integrated multiple Angular modules like ngx-translate and ngx-loading.</li>
+        <li>Developed custom table components for displaying data with sorting and pagination.</li>
+        <li>Optimized page load times.</li>
+        <li>Fixed issue with tooltips on mobile devices.</li>
+      </ul>
+    </div>
+  </div>
+  <div class=row><div class=col-xs-12>Rails/Vue.js App</div></div>
+  <div class=row>
+    <div class=col-xs-12>
+      <ul>
+        <li>Setup infrastructure in AWS.</li>
+        <li>Developed scheduling frontend using Vue.js.</li>
+        <li>Developed phone manager feature.</li>
+        <li>Developed coupon system frontend.</li>
+      </ul>
+    </div>
+  </div>
   <div class=row><div class=col-xs-12>Ionic Android/iOS app</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
+        <li>Provided guidance on setup, run and deployment.</li>
+        <li>Diagnosed notification/crashing issues.</li>
         <li>Developed plugin for VOIP calls using a native library.</li>
         <li>Prepared application to be more dev friendly.</li>
         <li>Documented iOS app signing process under Linux.</li>
@@ -219,10 +246,10 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>
-          Programming Languages: Ruby; Java; Javascript; Python; PHP; C; HTML; CSS.
+          Programming Languages: Ruby; Javascript; TypeScript; Python; PHP; Java; C; HTML; CSS.
         </li>
         <li>
-          Frameworks: Ruby on Rails; Ionic/Cordova; Angular 4; Bootstrap; Django.
+          Frameworks: Ruby on Rails; Angular; Vue.js; Ionic/Cordova; Bootstrap; Django.
         </li>
         <li>
           Tools: Docker; Chef; Linux; Mac OS X; Windows; Android Studio.
