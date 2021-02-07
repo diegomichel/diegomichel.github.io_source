@@ -32,19 +32,28 @@ draft = true
       <div class="row text-right"><strong>Feb 2019 - Now</strong></div>
     </div>
   </div>
-  <div class=row><div class=col-xs-12>Website - .Net Framework</div></div>
+  <div class=row><div class=col-xs-12>Website - ASP.NET</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Upgraded whole project from Angular 4 to 6.</li>
+        <li>Rewrote messaging section(Models, Views, Controllers, Middle Tier)</li>
+        <li>Added fuzzy search and autocomplete for advisors</li>
+        <li>Added functionality to detect and reject duplicated members</li>
+        <li>Updated JS code to ES6</li>
+        <li>Integrated changes for realtime chat app</li>
+        <li>Added endpoint to get conference data to pass to Usabilla</li>
+        <li>Code maintance, bugfixes and cleanup</li>
       </ul>
     </div>
   </div>
-  <div class=row><div class=col-xs-12>API - .Net Framework</div></div>
+  <div class=row><div class=col-xs-12>API - .NET Framework</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Upgraded whole project from Angular 4 to 6.</li>
+        <li>Added endpoint to report conferences, along with middle tier code.</li>
+        <li>Added endpoint to get weekly hours of contractors.</li>
+        <li>Added endpoint to get list of appointments for contractors.</li>
+        <li>Update endpoints related to messaging functionality.</li>
       </ul>
     </div>
   </div>
@@ -54,6 +63,14 @@ draft = true
       <ul>
         <li>Production Support</li>
         <li>Fixed bugs</li>
+        <li>Integrated Usabilla</li>
+        <li>CSS updates</li>
+        <li>Added Spinner for http Requests</li>
+        <li>Setup linting rules for build server</li>
+        <li>Added server configuration to prevent caching issues</li>
+        <li>Added third party scripts like gtm, optimizely, cloudfront and hotjar</li>
+        <li>Researched how to get logs from Azure signalR for debugging purposes</li>
+        <li>Created visualstudio.com Pipeline for automated build and deployment</li>
       </ul>
     </div>
   </div>
