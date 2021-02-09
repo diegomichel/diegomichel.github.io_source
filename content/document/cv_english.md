@@ -62,6 +62,7 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>Production Support</li>
+        <li>Added Usabilla trigger at end of chat session(Including API Endpoint)</li>
         <li>Fixed bugs</li>
         <li>Integrated Usabilla</li>
         <li>CSS updates</li>
@@ -78,7 +79,7 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Upgraded whole project from Angular 4 to 6.</li>
+        <li>Added multiple changes to handle new messages rules</li>
       </ul>
     </div>
   </div>
@@ -86,7 +87,9 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Upgraded whole project from Angular 4 to 6.</li>
+        <li>Extended functionality to allow approval of advisors bio/quote of new network.</li>
+        <li>Refactored functionality to remove duplicated code.</li>
+        <li>Removed dead code.</li>
       </ul>
     </div>
   </div>
@@ -94,7 +97,9 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Upgraded whole project from Angular 4 to 6.</li>
+        <li>Build batch job that sends SMS reminders using Vonage/Nexmo API.</li>
+        <li>Added middle tier support code.</li>
+        <li>Setup scheduled task in windows for it.</li>
       </ul>
     </div>
   </div>
