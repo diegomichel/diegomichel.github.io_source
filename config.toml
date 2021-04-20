@@ -5,3 +5,7 @@ contentdir = "content"
 publishdir = "public"
 theme = "ddd"
 MetaFataFormat = "TOML"
+[markup]
+  [markup.goldmark]
+      [markup.goldmark.renderer]
+            unsafe = true
