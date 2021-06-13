@@ -36,13 +36,14 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
+        <li>Implemented Pay Model for messages(Frontend and backend)</li>
         <li>Rewrote messaging section(Models, Views, Controllers, Middle Tier)</li>
         <li>Added fuzzy search and autocomplete for advisors</li>
         <li>Added functionality to detect and reject duplicated members</li>
         <li>Updated JS code to ES6</li>
-        <li>Integrated changes for realtime chat app</li>
+        <li>Integrated changes for real-time chat app</li>
         <li>Added endpoint to get conference data to pass to Usabilla</li>
-        <li>Code maintance, bugfixes and cleanup</li>
+        <li>Code maintenance, bugfixes, and cleanup</li>
       </ul>
     </div>
   </div>
@@ -50,9 +51,9 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Added endpoint to report conferences, along with middle tier code.</li>
+        <li>Added endpoint to report conferences, along with middle-tier code.</li>
         <li>Added endpoint to get weekly hours of contractors.</li>
-        <li>Added endpoint to get list of appointments for contractors.</li>
+        <li>Added endpoint to get the list of appointments for contractors.</li>
         <li>Update endpoints related to messaging functionality.</li>
       </ul>
     </div>
@@ -62,15 +63,15 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>Production Support</li>
-        <li>Added Usabilla trigger at end of chat session(Including API Endpoint)</li>
+        <li>Added Usabilla trigger at the end of chat session(Including API Endpoint)</li>
         <li>Fixed bugs</li>
         <li>Integrated Usabilla</li>
         <li>CSS updates</li>
-        <li>Added Spinner for http Requests</li>
-        <li>Setup linting rules for build server</li>
+        <li>Added Spinner for HTTP Requests</li>
+        <li>Setup linting rules for the build server</li>
         <li>Added server configuration to prevent caching issues</li>
-        <li>Added third party scripts like gtm, optimizely, cloudfront and hotjar</li>
-        <li>Researched how to get logs from Azure signalR for debugging purposes</li>
+        <li>Added third party scripts like GTM, Optimizely, Cloudfront and Hotjar</li>
+        <li>Researched how to get logs from Azure SignalR for debugging purposes</li>
         <li>Created visualstudio.com Pipeline for automated build and deployment</li>
       </ul>
     </div>
@@ -87,7 +88,7 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Extended functionality to allow approval of advisors bio/quote of new network.</li>
+        <li>Extended functionality to allow approval of advisors bio/quote of a new network.</li>
         <li>Refactored functionality to remove duplicated code.</li>
         <li>Removed dead code.</li>
       </ul>
@@ -98,23 +99,25 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>Build batch job that sends SMS reminders using Vonage/Nexmo API.</li>
-        <li>Added middle tier support code.</li>
+        <li>Added middle-tier support code.</li>
         <li>Setup scheduled task in windows for it.</li>
       </ul>
     </div>
   </div>
+  <br />
+  <br />
   <div class=row>
     <div class="col-xs-4"><strong>Software Engineer</strong></div>
     <div class="col-xs-5"><p class="text-center"><strong>Novotorium</strong></p></div>
     <div class="col-xs-3">
-      <div class="row text-right"><strong>May 2016 - Now</strong></div>
+      <div class="row text-right"><strong>May 2016 - Feb 2019</strong></div>
     </div>
   </div>
   <div class=row><div class=col-xs-12>Angular app</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Upgraded whole project from Angular 4 to 6.</li>
+        <li>Upgraded the whole project from Angular 4 to 6.</li>
         <li>Developed multiple services for fetching and submitting data.</li>
         <li>Developed paginator component and sorting mixing for reusability.</li>
         <li>Integrated multiple Angular modules like ngx-translate and ngx-loading.</li>
@@ -139,10 +142,10 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Provided guidance on setup, run and deployment.</li>
+        <li>Provided guidance on setup, run and, deployment.</li>
         <li>Diagnosed notification/crashing issues.</li>
         <li>Developed plugin for VOIP calls using a native library.</li>
-        <li>Prepared application to be more dev friendly.</li>
+        <li>Prepared application to be more dev-friendly.</li>
         <li>Documented iOS app signing process under Linux.</li>
         <li>Tested and debugged Push Notification service with AWS.</li>
         <li>Added Google Tag Manager and Google Analytics to the hybrid app.</li>
@@ -151,7 +154,7 @@ draft = true
       </ul>
     </div>
   </div>
-  <div class=row><div class=col-xs-12>BOS</div></div>
+  <div class=row><div class=col-xs-12>BOS (Rails)</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
@@ -161,17 +164,17 @@ draft = true
       </ul>
     </div>
   </div>
-  <div class=row><div class=col-xs-12>HFN</div></div>
+  <div class=row><div class=col-xs-12>HFN (Rails)</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
         <li>Integrated Stripe Payments.</li>
-        <li>Optimized it to load under three seconds.</li>
+        <li>Optimized it to load in under three seconds.</li>
         <li>Managed AWS instances, deployed changes with Chef.</li>
       </ul>
     </div>
   </div>
-  <div class=row><div class=col-xs-12>Galvanizer</div></div>
+  <div class=row><div class=col-xs-12>Galvanizer (Rails)</div></div>
   <div class=row>
     <div class=col-xs-12>
       <ul>
@@ -180,7 +183,7 @@ draft = true
         <li>Developed D3.js visualization with data from GlassFrog API.</li>
         <li>Frontend development using Bootstrap.</li>
         <li>Managed and configured apps on Heroku.</li>
-        <li>Guided a non-technical person on how to use Git, Heroku and c9.io.</li>
+        <li>Guided a non-technical person on how to use Git, Heroku, and c9.io.</li>
       </ul>
     </div>
   </div>
@@ -212,7 +215,7 @@ draft = true
       <ul>
         <li>Developed REST API for Mobile Application using Grape Ruby Gem.</li>
         <li>Automated deployment.</li>
-        <li>Developed Multi Dimensional charts for data visualization.</li>
+        <li>Developed Multi-Dimensional charts for data visualization.</li>
         <li>Improved searches and menu usability.</li>
       </ul>
     </div>
@@ -273,7 +276,7 @@ draft = true
   <div class=row>
     <div class=col-xs-12>
       <ul>
-        <li>Organized the workgroup, did research, programming and electronic/electric design.</li>
+        <li>Organized the workgroup, did research, programming, and electronic/electric design.</li>
       </ul>
     </div>
   </div>
@@ -297,16 +300,16 @@ draft = true
     <div class=col-xs-12>
       <ul>
         <li>
-          Programming Languages: Ruby; Javascript; TypeScript; Python; PHP; Java; C; HTML; CSS.
+          Programming Languages: Ruby; Javascript; TypeScript; C#, Python; PHP; Java; C; HTML; CSS.
         </li>
         <li>
-          Frameworks: Ruby on Rails; Angular; Vue.js; Ionic/Cordova; Bootstrap; Django.
+          Frameworks: Ruby on Rails; Angular; Vue.js; .Net Framework, Ionic/Cordova; Bootstrap; Django.
         </li>
         <li>
           Tools: Docker; Chef; Linux; Mac OS X; Windows; Android Studio.
         </li>
         <li>
-          Power user of vim, tmux, Linux, ssh, git.
+          Power user of vim, tmux, Linux, ssh, git, ahk.
         </li>
       </ul>
     </div>
